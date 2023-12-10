@@ -1,5 +1,18 @@
 # Test-task-beautyrobot
 
+## Task 4
+For checking this task a MongoDB client is required in your system. Probably, it's easier to use Docker (as I did). You'll need the following commands to upload and run MongoDB client in Docker container:
+```
+docker pull mongo:latest
+docker run -d -p 2717:27017 --name mongo_container mongo:latest
+docker exec -it mongo_container mongosh
+```
+Now you're inside mongo_container and can create task_db:
+```
+> use task_db
+```
+Now you can run mongo.py from task_4/mongo.py
+
 ## Task 5
 This webhook example is based on FastAPI framework. This task implementation requires to use some service that will help to expose localhost to the internet (rather than deploying the project). I chose to use [Pinggy](https://pinggy.io/). First of all, you'll need to sign up there and then copy and paste the command from Pinggy main page to you terminal in order to get an URL exposed to the internet:
 
