@@ -8,6 +8,12 @@ packages = [{include = "test_task_beautyrobot"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+pydantic-settings = "^2.1.0"
+python-dotenv = "^1.0.0"
+deepdiff = "^6.7.1"
+dictdiffer = "^0.9.0"
 
 
 [build-system]
