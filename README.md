@@ -8,6 +8,9 @@ Run task_1/verify_input_data.py
 ## Task 2
 Run task_2/count_elements.py
 
+## Task 3
+Run task_3/find_diff.py
+
 ## Task 4
 For checking this task a MongoDB client is required in your system. Probably, it's easier to use Docker (as I did). You'll need the following commands to upload and run MongoDB client in Docker container:
 ```
