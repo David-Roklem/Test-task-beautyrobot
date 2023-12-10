@@ -2,6 +2,7 @@
 
 ## Task 1
 This task is made in two variants depending on the task specification interpetation. Just in case :)
+
 Run task_1/verify_input_data.py
 
 ## Task 2
