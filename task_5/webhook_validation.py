@@ -8,8 +8,3 @@ def generate_hash_signature(
         digest_method=hashlib.sha1
 ):
     return hmac.new(secret, payload, digest_method).hexdigest()
-
-
-# print(generate_hash_signature(
-#     se
-# ))
